@@ -4,10 +4,10 @@ name := "jruby"
 
 version := "0.3"
 
-organization := "com.restphone"
+organization := "de.marvinkerkhoff"
 
 libraryDependencies ++= Seq(
-  "org.jruby" % "jruby-complete" % "1.6.5.1"
+  "org.jruby" % "jruby-complete" % "1.7.16"
 )
 
 // unmanagedBase <<= baseDirectory { base => base / "lib" }

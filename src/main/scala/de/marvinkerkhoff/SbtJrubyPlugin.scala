@@ -40,7 +40,7 @@ object SbtJRuby extends Plugin {
     // Warning:  this workaround is an ugly hack that probably has unknown side effects.
     val oldContextClassLoader = Thread.currentThread().getContextClassLoader
     Thread.currentThread().setContextClassLoader(this.getClass().getClassLoader())
-    com.restphone.ScriptWrapper.run(rf, baseDir.toString)
+    de.marvinkerkhoff.ScriptWrapper.run(rf, baseDir.toString)
     Thread.currentThread().setContextClassLoader(oldContextClassLoader)
   }
 }
