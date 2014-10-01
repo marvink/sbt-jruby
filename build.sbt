@@ -2,7 +2,7 @@ sbtPlugin := true
 
 name := "jruby"
 
-version := "0.3"
+version := "1.0"
 
 organization := "de.marvinkerkhoff"
 
