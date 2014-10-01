@@ -3,7 +3,6 @@ target/
 .cache
 .classpath
 .project
-target/
 .idea/
 .target/
 *.swp
